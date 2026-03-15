@@ -1,0 +1,54 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container in center */
+.container {
+    width: 300px;
+    margin: 100px auto;
+    /* center horizontally with margin top */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Heading */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Inputs style */
+.container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+/* Button style */
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ec8923;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+/* Button hover */
+.container button:hover {
+    background-color: #ec8923;
+    color: white;
+}
