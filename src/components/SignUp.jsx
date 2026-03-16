@@ -1,6 +1,8 @@
+import "./signup.css";
+
 import "./SignUp.css";
 
-function Signup() {
+function Signup({ goToSignIn}) {
   return (
     <div className="container">
       <h2>Sign Up</h2>
@@ -9,9 +11,11 @@ function Signup() {
       <input type="password" placeholder="Password" />
       <input type="Confirm password" placeholder="Confirm Password" />
 
-      <button>Sign Up</button>
+      <button onClick={goToSignIn} >Sign Up</button>
     </div>
   );
 }
 
 export default Signup;
+
+
